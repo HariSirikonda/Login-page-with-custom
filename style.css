@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+}
+
+#welcome{
+    text-align: center;
+    margin: 20px 20px 20px 20px; 
+    color: black;
+}
+
+#box{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    overflow: auto;
+    margin: 30px auto;
+}
+
+#input{
+    width: 230px;
+    height: 25px;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: rgba(222, 226, 230, 0.509);
+}
+
+#layer2{
+    display: block;
+    margin: 15px 75px 5px 75px;
+    text-align: center;
+}
+#layer3{
+    display: block;
+    margin: 15px 75px 5px 75px;
+    text-align: center;
+}
+#layer4{
+    display: block;
+    margin: 15px 75px 20px 75px;
+    text-align: center;
+}
+
+a:hover{
+    color: red;
+}
+
+#submit_button{
+    background-color: rgb(38, 105, 248);
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    box-shadow: 0px 0px 5px black;
+}
